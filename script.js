@@ -1,3 +1,4 @@
 const grid = document.querySelector("#grid");
-const div = document.createElement("div");
-div.className = "square";
+const square = document.createElement("div");
+square.className = "square";
+
