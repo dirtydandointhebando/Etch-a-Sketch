@@ -11,10 +11,11 @@ const row = document.querySelectorAll(".row");
 
 const makeGrid = () => {
     for (i = 0; i < 16; i++) {
-        grid.AppendChild(newRow);
+        grid.appendChild(newRow);
     };
     for (i = 0; i < 16; i++) {
-        row.AppendChild(square);
+        row.appendChild(square);
     }
 };
 
+makeGrid();
