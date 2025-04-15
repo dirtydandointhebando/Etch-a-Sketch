@@ -6,7 +6,8 @@ square.className = "square";
 const row = document.querySelectorAll(".row");
 
 /* Ideas for making a 16x16 grid...
-2 "for" loops: 1 to create 16 rows and one to put 16 squares in the row
+2 "for" loops: 1 to create 16 rows and one to put 16 squares in the row 
+^^ does not work because you can't use appendChild to a collection... will need to find a workaround
 */
 
 const makeGrid = () => {
