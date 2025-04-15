@@ -17,3 +17,4 @@ const makeGrid = () => {
         row.AppendChild(square);
     }
 };
+
