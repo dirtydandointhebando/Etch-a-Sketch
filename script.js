@@ -1,6 +1,6 @@
 const grid = document.querySelector("#grid");
-const row = document.createElement("div");
-row.classname = "row";
+const newRow = document.createElement("div");
+newRow.classname = "row";
 const square = document.createElement("div");
 square.className = "square";
 
@@ -10,7 +10,7 @@ square.className = "square";
 
 const makeGrid = () => {
     for (i = 0; i < 16; i++) {
-        grid.AppendChild(row);
+        grid.AppendChild(newRow);
     };
     for (i = 0; i < 16; i++) {
         row.AppendChild(square);
