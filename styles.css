@@ -3,9 +3,11 @@
     padding: 0px;
 }
 
+
 #grid {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .row {
