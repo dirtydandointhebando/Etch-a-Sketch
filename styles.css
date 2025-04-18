@@ -7,6 +7,10 @@ body {
     text-align: center;
 }
 
+h1 {
+    margin: 15px;
+}
+
 #grid {
     display: flex;
     flex-direction: column;
