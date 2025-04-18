@@ -23,8 +23,8 @@ h1 {
 
 .square {
     border: solid, rgb(0, 140, 255), 1px;
-    min-height: 20px;
-    min-width: 20px;
+    min-height: 30px;
+    min-width: 30px;
     box-sizing: border-box;
     margin: 1px;
 }
