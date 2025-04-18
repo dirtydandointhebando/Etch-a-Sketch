@@ -1,6 +1,6 @@
 const grid = document.querySelector("#grid");
 const newRow = document.createElement("div");
-newRow.classname = "row";
+newRow.className = "row";
 const square = document.createElement("div");
 square.className = "square";
 const row = document.querySelectorAll(".row");
@@ -13,8 +13,6 @@ const row = document.querySelectorAll(".row");
 const makeGrid = () => {
     for (i = 0; i < 16; i++) {
         grid.appendChild(newRow);
-    };
-    for (i = 0; i < 16; i++) {
         row.appendChild(square);
     }
 };
