@@ -13,4 +13,6 @@
 
 .square {
     border: solid, rgb(0, 140, 255), 1px;
+    min-height: 20px;
+    min-width: 20px;
 }
