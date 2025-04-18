@@ -19,3 +19,7 @@
     min-height: 20px;
     min-width: 20px;
 }
+
+.square:hover {
+    border: solid, rgb(0, 255, 21), 2px;
+}
