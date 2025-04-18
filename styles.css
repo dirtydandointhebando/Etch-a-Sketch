@@ -31,4 +31,5 @@ h1 {
 
 .square:hover {
     border: solid, rgb(0, 255, 21), 2px;
+    box-shadow: 0 0 8px rgba(0, 255, 21, 1);
 }
