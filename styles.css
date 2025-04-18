@@ -26,6 +26,7 @@ h1 {
     min-height: 20px;
     min-width: 20px;
     box-sizing: border-box;
+    margin: 1px;
 }
 
 .square:hover {
