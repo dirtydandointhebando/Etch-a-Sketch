@@ -16,3 +16,11 @@ const makeGrid = () => {
 
 makeGrid();
 
+document.querySelectorAll(".square").forEach(square => {
+    square.addEventListener("mouseenter", () => {
+        square.classList.add("hover");
+        setTimeout(() => {
+            square.classList.remove("hover");
+        }, 3500);
+    });
+});
