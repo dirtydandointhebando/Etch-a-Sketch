@@ -24,3 +24,8 @@ document.querySelectorAll(".square").forEach(square => {
         }, 10000);
     });
 });
+
+const button = document.querySelector("button");
+button.addEventListener("click", () => {
+    
+})
