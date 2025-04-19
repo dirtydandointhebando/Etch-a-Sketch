@@ -21,6 +21,6 @@ document.querySelectorAll(".square").forEach(square => {
         square.classList.add("hover");
         setTimeout(() => {
             square.classList.remove("hover");
-        }, 3500);
+        }, 10000);
     });
 });
