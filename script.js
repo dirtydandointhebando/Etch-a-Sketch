@@ -11,7 +11,7 @@ const makeGrid = () => {
             newRow.appendChild(square);
         }
         grid.appendChild(newRow);
-    }
+    };
 };
 
 makeGrid();
@@ -27,5 +27,9 @@ document.querySelectorAll(".square").forEach(square => {
 
 const button = document.querySelector("button");
 button.addEventListener("click", () => {
-    
-})
+    // take user input as prompt
+    // make sure prompt value is converted to an integer
+    // add error message that makes user re-enter input if not an int
+    // create a square grid with the specified height and width as the input
+    // note: the existing grid dimensions must remain the same (960px wide)
+});
