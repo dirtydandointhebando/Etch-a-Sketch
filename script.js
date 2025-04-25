@@ -30,6 +30,7 @@ button.addEventListener("click", () => {
     let dimensions;
     do {
         let dimensions = prompt("How many squares do you want per row? Please enter a number between 1-100.");
+        parseInt(userInput, 10)
     } while (!Number.isInteger(Math.floor(dimensions)) || (dimensions > 100));
     // make sure max value allowed is 100
     // add error message that makes user re-enter input if not an int or if it is > 100
