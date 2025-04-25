@@ -28,7 +28,7 @@ document.querySelectorAll(".square").forEach(square => {
 const button = document.querySelector("button");
 button.addEventListener("click", () => {
     let dimensions = prompt("How many squares do you want per row? Please enter a number between 1-100.");
-    while (!Number.isInteger(dimensions) || (dimensions > 100)) {
+    while (!Number.isInteger(Math.floor(dimensions)) || (dimensions > 100)) {
         let dimensions = prompt("Error. Please enter a valid number between 1-100.");
         if (Number.isInteger(dimensions) && (dimensions < 100)) break;
     };
