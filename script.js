@@ -27,7 +27,7 @@ document.querySelectorAll(".square").forEach(square => {
 
 const button = document.querySelector("button");
 button.addEventListener("click", () => {
-    // take user input as prompt
+    let dimensions = prompt("How many squares do you want per row?");
     // make sure prompt value is converted to an integer
     // make sure max value allowed is 100
     // add error message that makes user re-enter input if not an int or if it is > 100
