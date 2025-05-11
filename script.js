@@ -27,7 +27,9 @@ document.querySelectorAll(".square").forEach(square => {
 
 
 const newGridBtn = document.querySelector("#newGrid");
-
+newGridBtn.addEventListener("click", () => {
+    
+})
 
 /*
 const button = document.querySelector("button");
