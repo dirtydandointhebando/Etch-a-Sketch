@@ -39,12 +39,12 @@ button:hover {
 .row {
     display: flex;
     width: 100%;
+    flex: 1;
 }
 
 .square {
     border: solid, rgb(0, 140, 255), 1px;
-    min-height: 30px;
-    min-width: 30px;
+    flex: 1;
     box-sizing: border-box;
     margin: 1px;
 }
