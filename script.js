@@ -13,19 +13,17 @@ const makeGrid = (rows) => {
         }
         grid.appendChild(newRow);
     };
+    document.querySelectorAll(".square").forEach(square => {
+        square.addEventListener("mouseenter", () => {
+            square.classList.add("hover");
+            setTimeout(() => {
+                square.classList.remove("hover");
+            }, 10000);
+        });
+    });
 };
 
 makeGrid(16);
-
-document.querySelectorAll(".square").forEach(square => {
-    square.addEventListener("mouseenter", () => {
-        square.classList.add("hover");
-        setTimeout(() => {
-            square.classList.remove("hover");
-        }, 10000);
-    });
-});
-
 
 const newGridBtn = document.querySelector("#newGrid");
 newGridBtn.addEventListener("click", () => {
