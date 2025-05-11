@@ -25,6 +25,10 @@ document.querySelectorAll(".square").forEach(square => {
     });
 });
 
+
+const newGridBtn = document.querySelector("#newGrid");
+
+
 /*
 const button = document.querySelector("button");
 button.addEventListener("click", () => {
