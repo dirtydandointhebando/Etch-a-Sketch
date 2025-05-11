@@ -31,7 +31,7 @@ newGridBtn.addEventListener("click", () => {
     let rows = prompt("How many rows do you want in your new grid? Please enter a number between 1-100.");
     if (Number.isInteger(parseInt(rows, 10)) && rows <= 100) {
         alert(`Here's a new grid with ${parseInt(rows, 10)} rows and columns. Have fun!`);
-        
+        makeGrid(parseInt(rows, 10));
     } else alert("Please enter a valid number between 1-100 so we can serve up a new grid for you. Thanks!");
     //add function to button click
     // take a user input for a number
