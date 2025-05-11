@@ -1,6 +1,7 @@
 const grid = document.querySelector("#grid");
 
 const makeGrid = (rows) => {
+    grid.innerHTML = ""
     for (let i = 0; i < rows; i++) {
         const newRow = document.createElement("div");
         newRow.className = "row";
