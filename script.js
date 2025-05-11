@@ -25,6 +25,7 @@ document.querySelectorAll(".square").forEach(square => {
     });
 });
 
+/*
 const button = document.querySelector("button");
 button.addEventListener("click", () => {
     let dimensions;
@@ -37,3 +38,4 @@ button.addEventListener("click", () => {
     // create a square grid with the specified height and width as the input
     // note: the existing grid dimensions must remain the same (960px wide)
 });
+*/
