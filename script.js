@@ -29,6 +29,7 @@ document.querySelectorAll(".square").forEach(square => {
 const newGridBtn = document.querySelector("#newGrid");
 newGridBtn.addEventListener("click", () => {
     let rows = prompt("How many rows do you want in your new grid?");
+    parseInt(rows, 10);
     //add function to button click
     // take a user input for a number
     // make sure the number is an integer
