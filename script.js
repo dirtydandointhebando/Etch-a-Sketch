@@ -28,8 +28,15 @@ document.querySelectorAll(".square").forEach(square => {
 
 const newGridBtn = document.querySelector("#newGrid");
 newGridBtn.addEventListener("click", () => {
-    
-})
+    //add function to button click
+    // take a user input for a number
+    // make sure the number is an integer
+    // make sure the max value allowed is 100
+    // give an error if conditions are not met
+    // call the function of conditions are met
+    // create new grid with the number of squares requested on each side (i.e. 10x10)
+    // the grid must remain 960px wide regardless of the number of squares
+});
 
 /*
 const button = document.querySelector("button");
