@@ -41,6 +41,7 @@ newGridBtn.addEventListener("click", () => {
     // call the function of conditions are met
     // create new grid with the number of squares requested on each side (i.e. 10x10)
     // the grid must remain 960px wide regardless of the number of squares
+    // make sure that old grid is replaced
 });
 
 /*
